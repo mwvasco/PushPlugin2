@@ -10,6 +10,7 @@
 	<access origin="*.pushwoosh.com"/>
 
 	<platform name="android">
+	
         <config-file target="res/xml/config.xml" parent="plugins">
     		<plugin name="PushPlugin" value="com.plugin.GCM.PushPlugin" />
         </config-file>
@@ -63,4 +64,6 @@
         <source-file src="PushPlugin.h" />
         <source-file src="PushPlugin.m" />
     </platform>
+    
+    <gap:plugin name="GenericPush" /> <!-- latest release -->
 </widget>
