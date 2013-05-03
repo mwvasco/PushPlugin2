@@ -8,6 +8,7 @@
 
 	<asset src="www/PushNotification.js" target="PushNotification.js" />
 	<access origin="*.pushwoosh.com"/>
+	<gap:plugin name="GenericPush" /> <!-- latest release -->
 
 	<platform name="android">
 	
@@ -65,5 +66,5 @@
         <source-file src="PushPlugin.m" />
     </platform>
     
-    <gap:plugin name="GenericPush" /> <!-- latest release -->
+    
 </widget>
