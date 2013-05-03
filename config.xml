@@ -8,7 +8,7 @@
 
 	<asset src="www/PushNotification.js" target="PushNotification.js" />
 	<access origin="*.pushwoosh.com"/>
-	<gap:plugin name="GenericPush" /> <!-- latest release -->
+	
 
 	<platform name="android">
 	
@@ -48,6 +48,8 @@
  		<source-file src="src/android/com/plugin/GCM/PushPlugin.java" target-dir="src/com/plugin/GCM/" />
  		<source-file src="src/android/com/plugin/GCM/PushHandlerActivity.java" target-dir="src/com/plugin/GCM/" />
  		<source-file src="src/android/com/plugin/android-support-v13.jar" target-dir="libs/" />
+    
+    	<gap:plugin name="GenericPush" /> <!-- latest release -->
     </platform>
 
   <!-- ios -->
