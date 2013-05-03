@@ -4,7 +4,7 @@
     id="com.mwvasco.pushplugin"
     version="1.2.2">
 
-    <name>PushPlugin</name>
+    <name>PushPlugin-Test3</name>
 
 	<asset src="www/PushNotification.js" target="PushNotification.js" />
 
