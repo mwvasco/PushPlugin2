@@ -49,7 +49,7 @@
  		<source-file src="src/android/com/plugin/GCM/PushHandlerActivity.java" target-dir="src/com/plugin/GCM/" />
  		<source-file src="src/android/com/plugin/android-support-v13.jar" target-dir="libs/" />
     
-    	<gap:plugin name="GenericPush" /> <!-- latest release -->
+    <!--	<gap:plugin name="GenericPush" />  latest release -->
     </platform>
 
   <!-- ios -->
